@@ -1,0 +1,173 @@
+/* 
+GENERAL----------------------------------- 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+}
+
+body {
+    background-image: url("image/forest.jpg");
+    z-index: 0;
+}
+section {
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    /* z-index: 1; */
+    /* opacity: 0.75; */
+}
+
+h1 {
+    padding-bottom: 75px;
+    z-index: 1;
+}
+
+p {
+    max-width: 750px;
+    z-index: 1;
+}
+
+.container {
+    /* border: 3px solid orange; */
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    display: grid;
+    text-align: center;
+    max-width: 100%;
+}
+
+/*
+COLORS------------------------------------
+*/
+
+.green-forest {
+    color: #417A6B;
+}
+
+.white {
+    color: rgba(255,255,255);
+}
+
+.bg-white {
+    color: rgba(255,255,255, 0.5);
+}
+
+.bg-green-forest {
+    background-color: rgba(65,122,107, 0.5);
+}
+
+/*
+HEADER-----------------------------------
+*/
+
+nav {
+    /* border: 5px solid red; */
+    display: grid;
+    /* position: fixed; */
+    text-align: center;
+    padding: 20px;
+    /* background-color: #4F6272; */
+}
+
+nav ul li {
+    display: inline;
+    /* color: aliceblue; */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 25px 50px;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+    /* color: #417A6B; */
+    text-decoration: none;
+}
+
+/*
+MAIN--------------------------
+*/
+
+#large-container {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    /* background-color: white; */
+}
+
+#lead {
+    /* border: 5px solid blue; */
+    height: 50vh;
+    background-color: rgba(255,255,255, 1);
+}
+
+#about {
+    /* border: 5px solid blue; */
+    min-height: 500px;
+}
+
+#about h1{
+    /* border: 5px dotted #4F6272; */
+}
+
+#experience {
+    /* border: 5px solid green; */
+    background-color: rgba(255,255,255, 1);
+    color: black;
+    min-height: 500px;
+}
+
+#education {
+    /* border: 5px solid yellow; */
+    min-height: 500px;
+}
+
+/* 
+FOOTER-------------------------
+ */
+
+#footer {
+    /* border: 5px solid pink; */
+    background-color: rgba(255,255,255, 1);
+    width: 100%;
+}
+
+#footer .container {
+    padding: 10px;
+    display: grid;
+    text-align: center;
+    max-width: 100%;
+}
+
+.copyright {
+    padding: 10px;
+}
+
+#footer ul li {
+    list-style: none;
+    padding: 7px;
+}
+
+.fa-github:hover {
+    color: #4F6272;
+}
+
+.fa-linkedin-in:hover {
+    color: #4F6272;
+}

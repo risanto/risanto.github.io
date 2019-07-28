@@ -316,19 +316,19 @@ MEDIA--------------------------------------------
     }
 
     nav ul li {
-        padding: 10px;
+        padding: 25px;
     }
 
     nav ul li a {
         padding: 25px;
     }
 
-    nav ul li a:hover {
+    nav ul li:hover a {
         background-color: white;
         color: black;
         /* color: #417A6B; */
         text-decoration: none;
-        padding: 5px;
+        padding: 2% 10%;
     }    
 
     h1 {

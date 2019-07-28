@@ -149,7 +149,7 @@ LEAD------------------------------------------
     background-color: rgba(255,255,255, 1);
 }
 
-@media screen and (min-width: 1090px) {
+@media screen and (min-width: 1050px) {
     #lead {
         height: 90vh;
         width: 95vw;
@@ -309,17 +309,34 @@ FOOTER----------------------------------------
 MEDIA--------------------------------------------
 */
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 800px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        padding: 10px;
+    }
+
     nav ul li a {
         padding: 25px;
     }
 
+    nav ul li a:hover {
+        background-color: white;
+        color: black;
+        /* color: #417A6B; */
+        text-decoration: none;
+        padding: 5px;
+    }    
+
     h1 {
-        font-size: 20px;
+        font-size: 1.5em;
         padding-bottom: 1em;
     }
 
     h4, a, b, p {
-        font-size: 16px;
+        font-size: 1em;
     }
 }

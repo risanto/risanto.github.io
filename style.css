@@ -149,7 +149,7 @@ LEAD------------------------------------------
     background-color: rgba(255,255,255, 1);
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1090px) {
     #lead {
         height: 90vh;
         width: 95vw;
@@ -309,7 +309,7 @@ FOOTER----------------------------------------
 MEDIA--------------------------------------------
 */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1080px) {
     nav ul li a {
         padding: 25px;
     }

@@ -115,7 +115,7 @@ nav ul li a:hover {
 }
 
 /*
-MAIN--------------------------
+MAIN------------------------------------------
 */
 
 #large-container {
@@ -126,6 +126,10 @@ MAIN--------------------------
     margin: 0 auto;
     /* background-color: white; */
 }
+
+/*
+LEAD------------------------------------------
+*/
 
 #lead {
     /* border: 5px solid blue; */
@@ -139,16 +143,16 @@ MAIN--------------------------
         width: 95vw;
     }
 
-    h1 {
+    #lead h1 {
         font-size: 3em;
     }
 
-    h4 {
+    #lead h4 {
         font-size: 1.5em;
         padding: 1em;
     }
 
-    b {
+    #lead b {
         font-size: 1.5em;
     }
 }
@@ -168,10 +172,6 @@ MAIN--------------------------
     display: inline-block;
     /* transition: .5s; */
 }
-
-/* #lead b:hover + a {
-    color: white;
-} */
 
 #lead a:hover b {
     background-color: #417A6B;
@@ -196,11 +196,46 @@ ABOUT----------------------------------------
     /* border: 5px dotted #4F6272; */
 }
 
+/* 
+EXPERIENCE-------------------------------------
+ */
+
 #experience {
     /* border: 5px solid green; */
     background-color: rgba(255,255,255, 1);
     color: black;
     min-height: 500px;
+}
+
+#experience h3, h4, p {
+    padding: 0.25em;
+}
+
+#experience-timeline {
+    display: flex;
+}
+
+.timeline-icon {
+    display: flex;
+    font-size: 2em;
+    padding: 0 0.25em;
+}
+
+.timeline-icon {
+    display: flex;
+    position: relative;
+    color: rgba(65,122,107, 1);
+    font-size: 2em;
+    padding: 0 0.25em;
+}
+
+.timeline-date {
+    padding: 0.5em;
+}
+
+.timeline-content {
+    padding: 1em;
+    background-color: rgba(65,122,107, 0.1);
 }
 
 #education {
@@ -209,7 +244,7 @@ ABOUT----------------------------------------
 }
 
 /* 
-FOOTER-------------------------
+FOOTER----------------------------------------
  */
 
 #footer {

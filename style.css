@@ -71,6 +71,14 @@ COLORS------------------------------------
     background-color: rgba(65,122,107, 0.5);
 }
 
+.bg-green-forest-min1 {
+    background-color: rgba(65,122,107, 0.1)
+}
+    
+.bg-green-forest-min {
+background-color: rgba(65,122,107, 0.2)
+}
+
 .bg-green-forest2 {
     background-color: rgba(65,122,107, 0.75);
 }
@@ -81,6 +89,10 @@ COLORS------------------------------------
 
 .black-half {
     color: rgba(0,0,0,0.5);
+}
+
+.white-almost {
+    color: rgba(255,255,255,0.75);
 }
 
 /*
@@ -192,8 +204,8 @@ ABOUT----------------------------------------
     min-height: 500px;
 }
 
-#about h1{
-    /* border: 5px dotted #4F6272; */
+#about-content{
+    padding: 1em;
 }
 
 /* 
@@ -235,12 +247,28 @@ EXPERIENCE-------------------------------------
 
 .timeline-content {
     padding: 1em;
-    background-color: rgba(65,122,107, 0.1);
+    /* background-color: rgba(65,122,107, 0.1); */
 }
+
+/* #education .timeline-content {
+    background-color: rgba(65,122,107, 0.1);
+} */
+
+/* 
+EDUCATION--------------------------------------
+ */
 
 #education {
     /* border: 5px solid yellow; */
     min-height: 500px;
+}
+
+#education-timeline {
+    display: flex;
+}
+
+#education h3, h4, p {
+    padding: 0.25em;
 }
 
 /* 

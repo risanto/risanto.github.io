@@ -1,3 +1,3 @@
 # risanto.github.io
 
-A static resume website made from pure CSS.
+A static resume website made with HTML + CSS.
